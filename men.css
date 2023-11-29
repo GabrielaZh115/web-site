@@ -1,0 +1,263 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.overlogobox {
+    background-color: rgb(238, 238, 238);
+    height: 4.2vh;
+    text-align: center;
+    line-height: 4.2vh;
+    font-size: 2vh;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.choiceandlogomenu {
+    height:7.5vh;
+}
+
+.choiceandlogomenu li { 
+    color: rgb(79, 101, 101);
+    display:inline-block;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 5vw;
+    line-height:7.5vh;
+    margin-left: 4vw;
+    float: left;
+    width: 1.5vw;
+}
+
+.choiceandlogomenu .one {
+    text-decoration: none;
+    color: black;
+}
+
+.choiceandlogomenu .two {
+    text-decoration: none;
+    color: black;
+}
+
+.choiceandlogomenu .three {
+    text-decoration: none;
+    color: black;
+}
+
+.choiceandlogomenu .thirdlist {
+    width: 6vw;
+}
+
+.choiceandlogomenu .secondlist {
+    color: black;
+    border-bottom: solid black;
+    font-weight: bold;
+    height:6vh;
+    width: 2vw;
+}
+
+.choiceandlogomenu li:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.choiceandlogomenu img {
+    height:5vh;
+    margin-left: 23.5vw;
+    margin-top: 1.5vh;
+}
+
+.choiceandlogomenu .icons {
+    height:3.5vh;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 2.5vh;
+}
+
+nav {
+    background-color: rgb(238, 238, 238);
+    height: 6.2vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin-left: 4vw;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-right: 0.5vw;
+    font-size: 0.95rem;
+    font-family: 'Mulish';
+    line-height: 6.2vh;
+}
+
+nav ul .razprodajba {
+    color: red
+}
+
+nav ul li:hover {
+    border-bottom: solid black;
+    height: 5.5vh;
+    background-color: white;
+}
+
+img {
+    height:57vh;
+}
+
+.button {
+    background-color: black;
+    color:white;
+    height: 5.6vh;
+    width: 9.4vw;
+    margin-left: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 0.8rem;
+    line-height: 5.6vh;
+    text-align:center;
+    position:absolute;
+    margin-top: -10.4vh;
+}
+
+.button:hover {
+    background-color: rgb(23, 23, 23);
+}
+
+.brands img {
+    height: 16vh;
+    margin-left: 4vw;
+}
+
+.products img {
+    list-style-type: none;
+    padding:0;
+    margin-left: 4.5vw;
+}
+
+.allproducts div {
+    display: inline-block;
+    width: 18vw;
+}
+
+.allproducts .firstproduct {
+    margin-left: 4.7vw;
+}
+
+.allproducts .secondproduct {
+    margin-left: 5.5vw;
+}
+
+.allproducts .thirdproduct {
+    margin-left: 5.5vw;
+}
+
+.allproducts .forthproduct {
+    margin-left: 5.6vw;
+}
+
+.allproducts .firstproduct .product1 {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+.allproducts .firstproduct .tekushtacena1 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .firstproduct .price1 {
+    color:red;
+    font-family: Cambria;
+    font-size: 1.2rem;
+}
+
+.allproducts .firstproduct .redovnacena1 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .firstproduct .najniska1 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .secondproduct .product2 {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+.allproducts .secondproduct .tekushtacena2 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .secondproduct .price2 {
+    color:red;
+    font-family: Cambria;
+    font-size: 1.2rem;
+}
+
+.allproducts .secondproduct .redovnacena2 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .secondproduct .najniska2 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .thirdproduct .product3 {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+.allproducts .thirdproduct .tekushtacena3 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .thirdproduct .price3 {
+    color:red;
+    font-family: Cambria;
+    font-size: 1.2rem;
+}
+
+.allproducts .thirdproduct .redovnacena3 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .thirdproduct .najniska3 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .forthproduct .product4 {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+.allproducts .forthproduct .tekushtacena4 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .forthproduct .price4 {
+    color:red;
+    font-family: Cambria;
+    font-size: 1.2rem;
+}
+
+.allproducts .forthproduct .redovnacena4 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
+
+.allproducts .forthproduct .najniska4 {
+    font-family: Calibri;
+    font-size: 0.8rem;
+}
